@@ -1,0 +1,15 @@
+<form *ngIf="showAddTask" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="text">Zadatak</label>
+        <input type="text" name="text" [(ngModel)]="text" id="text" placeholder="Dodaj zadatak" /> 
+    </div>
+    <div class="form-control">
+        <label for="day">Datum i vrijeme</label>
+        <input type="text" name="day" [(ngModel)]="day" id="day" placeholder="Dodaj datum i vrijeme" /> 
+    </div>
+    <div class="form-control form-control-check">
+        <label for="reminder">Dodaj podsjetnik</label>
+        <input type="checkbox" name="reminder" [(ngModel)]="reminder" id="reminder" /> 
+    </div>
+    <input type="submit" value="Spremi zadatak" class="btn btn-block" />
+</form>

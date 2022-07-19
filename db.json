@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Zubar",
+      "day": "8/11/2022 u 16:00 sati",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Odlazak na more",
+      "day": "21/7/2022 u 08:00 sati",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Obrana završnog rada",
+      "day": "22/9/2022 u 12:00 sati",
+      "reminder": true
+    }
+  ]
+}
